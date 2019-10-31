@@ -16,7 +16,7 @@
         <Cell v-on:click="onClickCell(7, $event)" v-bind:n="n"/>
         <Cell v-on:click="onClickCell(8, $event)" v-bind:n="n"/>
       </div>
-      <div>结果:{{result === null ? `胜负未分` : `胜方为${result}`}}</div>
+      <div>结果:{{result === '' ? `胜负未分` : `胜方为${result}`}}</div>
     </div>
 </template>
 <script>
