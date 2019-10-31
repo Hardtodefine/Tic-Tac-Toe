@@ -33,9 +33,9 @@ import Cell from './Cell'
     methods:{
       onClickCell(i,text){
         console.log(`${i}号被点击`);
-        // console.log(this.vm);//用不了
+        // console.log(this);//ok
         // this.map[2][2] = i;
-        // console.log(this.map);
+        // console.log(this.map);//ok
         // i
         // 0  map[0][0]
         // 3  map[1][0]
